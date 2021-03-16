@@ -20,7 +20,7 @@ const start = async () => {
     });
     return startHTTPServer(process.env, action);
 }
-// dotenv.config(); // JUST TO USE ON LOCAL ENVIRONMENT
+dotenv.config(); // JUST TO USE ON LOCAL ENVIRONMENT
 
 start().then();
 

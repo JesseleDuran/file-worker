@@ -13,13 +13,23 @@ Once it gets a response, it in turn saves batches in the database,
 
 The code pattern used in the structure of this service is oriented to CLEAN code.
 
-## How to run locally
+## How to run with docker-compose
 
 Just run
 
 ```
 docker-compose up -d
 ```
+
+## How to run locally
+
+It is necessary to have node version >= 15 and run:
+
+```
+npm i
+npm start
+```
+Remember to set your database environments in the .env file.
 
 ## API
 ---
