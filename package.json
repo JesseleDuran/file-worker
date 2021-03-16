@@ -5,7 +5,7 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "start": "db-migrate up && node app.js",
+    "start": "node app.js",
     "test": "nyc mocha --require @babel/register */test/**/*.test.js --recursive"
   },
   "keywords": [],
